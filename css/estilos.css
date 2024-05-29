@@ -1,4 +1,9 @@
-/* variable */
+/* selector universal */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* variables */
 :root{
     --fondoBody:#ced6f0;
     /* colores componente 1 */
@@ -8,4 +13,30 @@
     --h2colors1:#8e94ad;
     --pcolors1:#aaaaaa;
     /* colores componente 2 */
+}
+
+body{
+    background-color: var(--fondoBody);
+}
+.viajes{
+    
+    background-color: var(--fondoSecciones);
+    margin: 5% 20%;
+    border: black 40px ;
+    border-radius: 10deg;
+}
+
+.viajes h1{
+    color: var(--h1colors1);
+}
+.encabezado1{
+    text-align: center;
+}
+.cuerpo1 h2{
+    color: var(--h2colors1);
+}
+.cuerpo1 i{
+    background-color:var(--fondoIcono);
+    border-radius: 100%;
+    color:white;
 }
