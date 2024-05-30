@@ -24,6 +24,7 @@ body{
     margin: 5% 20%;
     border: black 40px ;
     border-radius: 10deg;
+    
 }
 
 .viajes h1{
@@ -31,12 +32,24 @@ body{
 }
 .encabezado1{
     text-align: center;
+    padding: 5% 5%;
 }
-.cuerpo1 h2{
-    color: var(--h2colors1);
+.cuerpo1 ul{
+    display: flex;
+    padding: 1% 5%;
+    flex-grow: 1;
+    list-style-type: none;
 }
+
 .cuerpo1 i{
     background-color:var(--fondoIcono);
     border-radius: 100%;
     color:white;
+    
+}
+.cuerpo1 h2{
+    color: var(--h2colors1);
+}
+.cuerpo1 p{
+    color: var(--pcolors1);
 }
