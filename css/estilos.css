@@ -1,3 +1,5 @@
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
 /* selector universal */
 *{
     margin: 0;
@@ -5,6 +7,7 @@
 }
 /* variables */
 :root{
+    --fuentePagina:"Hind Siliguri", sans-serif;
     --fondoBody:#ced6f0;
     /* colores componente 1 */
     --fondoSecciones:#ffffff;
@@ -18,6 +21,7 @@
 
 body{
     background-color: var(--fondoBody);
+    font-family: var(--fuentePagina);
 }
 .viajes{
     
