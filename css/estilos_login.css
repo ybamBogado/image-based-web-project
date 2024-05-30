@@ -1,0 +1,22 @@
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+/* selector universal */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* variables */
+:root{
+    --fuentePagina:"Hind Siliguri", sans-serif;
+    --fondoBody:#ced6f0;
+    /* colores componente 1 */
+    --fondoSecciones:#ffffff;
+    
+    --h1h2colors:#010101;
+    --pcolors1s1:#747577;
+    --labelcolor:#2a2a2a;
+    --fondoboton:#367af5;
+    --supcolor:#768dcd;
+    --acolor:#383838;
+    /* colores componente 2 */
+}
