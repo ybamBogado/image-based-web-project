@@ -9,7 +9,7 @@
 :root{
     --fuentePagina:"Hind Siliguri", sans-serif;
     --fondoBody:#ced6f0;
-    /* colores componente 1 */
+    /* colores componente tripy*/
     --fondoSecciones:#ffffff;
     
     --h1h2colors:#010101;
@@ -18,5 +18,67 @@
     --fondoboton:#367af5;
     --supcolor:#768dcd;
     --acolor:#383838;
-    /* colores componente 2 */
+
+}
+
+body{
+    background-color: var(--fondoBody);
+    font-family: var(--fuentePagina);
+}
+section{
+    background-color: var(--fondoSecciones);
+    text-align: center;
+    margin: 5% 30%;
+}
+div{
+    padding: 0 10%;
+}
+.Tripy{
+    padding-top: 2%;
+}
+i{
+    color: #367af5;
+}
+.Tripy h1,h2{
+    color: var(--h1h2colors);
+
+}
+.Tripy sub{
+    color: var(--pcolors1s1);
+    text-align: center;
+}
+.Tripy hr{
+    color: #f5f5f5;
+}
+.Formulario{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Formulario form{
+    display: flex;
+    flex-direction: column;
+}
+.Formulario label{
+    color: var(--labelcolor);
+    text-align: start;
+}
+.Formulario input{
+    padding: 5px 2px;
+    border: #dfe4e7 2px solid;
+    border-radius: 5px;
+}
+.Formulario button{
+    margin-top: 3%;
+    padding: 2% 0;
+    background-color: var(--fondoboton);
+    color: #ffffff;
+}
+.Formulario sub{
+    padding: 5% 20% 10% 20% ;
+}
+.Formulario a{
+    color: var(--acolor);
+    text-decoration: none;
 }
