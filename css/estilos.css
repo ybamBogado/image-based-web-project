@@ -8,6 +8,7 @@
     --fondoBody:#ced6f0;
     /* colores componente 1 */
     --fondoSecciones:#ffffff;
+    --supcolor:#768dcd;
     --h1colors1:#1e295d;
     --fondoIcono:#4169e2;
     --h2colors1:#8e94ad;
@@ -27,6 +28,9 @@ body{
     
 }
 
+.viajes sup{
+    color:var(--supcolor) ;
+}
 .viajes h1{
     color: var(--h1colors1);
 }
