@@ -39,6 +39,15 @@ div{
 i{
     color: #367af5;
 }
+.Tripy h1{
+    text-transform: uppercase;
+    font-size: 250%;
+
+}
+.Tripy h2{
+    font-size: 130%;
+
+}
 .Tripy h1,h2{
     color: var(--h1h2colors);
 
@@ -77,6 +86,8 @@ i{
 }
 .Formulario sub{
     padding: 5% 20% 10% 20% ;
+    text-transform: lowercase;
+    font-size: 50%;
 }
 .Formulario a{
     color: var(--acolor);
