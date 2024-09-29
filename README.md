@@ -8,7 +8,7 @@
 <p>
   Contiene una pagina principal la cual detalla los servicios ofrecidos por una empresa de vuelos
 </p>
-![image](https://github.com/user-attachments/assets/cfbe13b8-019d-4928-86e0-fa27faac2a8c)
+<img src="https://github.com/user-attachments/assets/cfbe13b8-019d-4928-86e0-fa27faac2a8c" alt="Imagen página">
 <hr>
 <h2>
   Página Inicio de Sesión
@@ -16,7 +16,8 @@
 <p>
   Contiene una página de Inicio de Sesión que pide mail y contraseña acompañada de un boton
 </p>
-![image](https://github.com/user-attachments/assets/034b0a7e-bddf-4c35-9dce-332aba2e3788)
+
+<img src="[https://github.com/user-attachments/assets/cfbe13b8-019d-4928-86e0-fa27faac2a8c](https://github.com/user-attachments/assets/034b0a7e-bddf-4c35-9dce-332aba2e3788)" alt="Imagen página">
 
 para probar este trabajo, tener en cuenta que al final de la seccion hay un link que redirige a la segunda seccion de log in
 https://ybambogado.github.io/image-based-web-project/
