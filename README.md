@@ -22,12 +22,13 @@ para probar este trabajo, tener en cuenta que al final de la seccion hay un link
 https://ybambogado.github.io/image-based-web-project/
 <hr>
 <h2>Link para clonar</h2>
-<a href="
-https://github.com/ybamBogado/image-based-web-project.git"> link para clonar</a>
+```bash
+    git clone https://github.com/ybamBogado/image-based-web-project.git
+    ```
+
 ## 🤝Contribuir
 ¡Las contribuciones son bienvenidas! 🙌 Si deseas mejorar este proyecto, por favor sigue estos pasos:
 1. 🍴 Haz un fork del repositorio.
-
 2. 🌿 Crea una nueva rama con tu característica o corrección:
     ```bash
     git checkout -b mi-nueva-caracteristica
